@@ -18,7 +18,7 @@
 | **📘 Documentation** | [**Consulter la Doc Technique**](https://alkzhab.github.io/MyBrickStore-Doc/) | PHPDoc, Javadoc, CDoc, DBDoc. |
 | **🗃️ Base de Données** | [**Accéder à phpMyAdmin**](https://mybrickstore.sytes.net/phpmyadmin) | Administration BDD (Hébergée). |
 | **📄 Rapports** | [**Voir les PDF**](/Rapports/) | Dossiers techniques et fonctionnels. |
-| **📺 Vidéos** | [**Voir les Démos**](/Rapports/Videos/) | Démonstrations Client & Admin. |
+| **📺 Vidéos** | [**Voir les Démos**](/Videos/) | Démonstrations Client & Admin. |
 ---
 
 ## 🔐 Identifiants de Test
