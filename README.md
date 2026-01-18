@@ -1,28 +1,68 @@
-# MyBrickStore
+# MyBrickStore - SAE S3
 
-**MyBrickStore** est un **site e-commerce innovant** qui permet aux utilisateurs de transformer leurs images en **mosaïques LEGO personnalisées**, puis de commander les pièces nécessaires pour les assembler chez eux.  
-Le projet est **modulaire et connecté**, combinant web, traitement d’image, algorithmes et gestion de stock.
+![Version](https://img.shields.io/badge/version-2.0.0-blue.svg)
+![PHP](https://img.shields.io/badge/PHP-8.2-777BB4?logo=php)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk)
+![MariaDB](https://img.shields.io/badge/MariaDB-10.6-003545?logo=mariadb)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## Fonctionnalités
+> **De l'image à la brique.**
+> MyBrickStore est une solution e-commerce complète permettant de transformer n'importe quelle image en mosaïque LEGO®, de commander les pièces et de gérer les stocks via une simulation d'usine connectée.
+---
 
-### Pour l’utilisateur
-- **Upload d’image** : Téléverse votre image préférée.  
-- **Génération de mosaïque LEGO** : Transforme l’image en mosaïque optimisée.  
-- **Commande des pièces** : Sélectionne et commande les briques pour assembler la mosaïque.  
-- **Suivi de commande** : Consulte l’état de votre commande et la livraison.
+## 🚀 Accès Rapide & Démonstration
 
-### Pour le système
-- **Traitement d’image** : Conversion et optimisation des images pour les mosaïques.  
-- **Gestion du stock et commandes usine** : Automatise la commande des pièces manquantes.  
-- **Algorithme de pavage optimal** : Génère le meilleur agencement de briques pour correspondre à l’image.  
-- **Base de données** : Stocke utilisateurs, commandes et stock (MySQL).
+| Ressource | Lien | Description |
+| :--- | :--- | :--- |
+| **🌐 Site Web** | [**Ouvrir MyBrickStore**](https://mybrickstore.sytes.net/index.php) | Site d'e-commerce. |
+| **📘 Documentation** | [**Consulter la Doc Technique**](https://alkzhab.github.io/MyBrickStore-Doc/) | PHPDoc, Javadoc, CDoc, DBDoc. |
+| **🗃️ Base de Données** | [**Accéder à phpMyAdmin**](https://mybrickstore.sytes.net/phpmyadmin) | Administration BDD (Hébergée). |
+| **📄 Rapports** | [**Voir les PDF**](/Rapports/) | Dossiers techniques et fonctionnels. |
+| **📺 Vidéos** | [**Voir les Démos**](/Rapports/Videos/) | Démonstrations Client & Admin. |
+---
 
-## Architecture et technologies
+## 🔐 Identifiants de Test
 
-| Module | Technologie |
-|--------|-------------|
-| Frontend Web | PHP, HTML, CSS, JavaScript |
-| Backend commandes et traitement image | Java |
-| Algorithme de génération de mosaïque | C |
-| Base de données | SQL (MySQL) |
-| Projet modulaire | Tous les modules connectés et interopérables |
+Voici les comptes nécessaires pour tester l'intégralité du projet.
+
+### 👨‍💻 1. Accès Administrateur (Back-Office)
+Accès au tableau de bord complet (Gestion stocks, commandes, statistiques, réapprovisionnement).
+* **Login :** `admin`
+* **Mot de passe :** `123456789aA!`
+
+### 🗃️ 2. Accès Base de Données (phpMyAdmin)
+AL'interface est protégée par une double authentification.
+
+| Niveau | Utilisateur | Mot de Passe |
+| :--- | :--- | :--- |
+| **🔒 Sécurité Page** (Htaccess) | `admin` | `Pokemon.5` |
+| **👤 Utilisateur SQL** (MariaDB) | `phpadmin` | `Pokemon.v.5` |
+
+### 💳 3. Paiement (PayPal Sandbox)
+Utilisez ce compte lors du checkout pour valider une commande.
+* **Email :** `sb-o00un48707050@personal.example.com`
+* **Mot de passe :** `0oH&XU{K`
+
+### 📊 4. Matomo (Mesure d'audience)
+Si l'accès au tableau de bord des statistiques vous est demandé.
+* **Login :** `phpadmin`
+* **Mot de passe :** `Pokemon.v.5`
+
+
+---
+
+## 📚 Qualité Logicielle & Normes
+
+Dans une optique de professionnalisation, le code respecte les standards industriels. Chaque module dispose de sa documentation normative générée automatiquement :
+
+| Module | Standard | Outil |
+| :--- | :--- | :--- |
+| **☕ Java** | Oracle Javadoc | *Javadoc* |
+| **🐘 PHP** | PSR-5 / PSR-19 | *phpDocumentor* |
+| **⚙️ C** | Doxygen Style | *Doxygen* |
+| **🗃️ SQL** | DBML | *DBDocs* |
+
+🚀 **[Accéder au Portail de Documentation Complet](https://alkzhab.github.io/MyBrickStore-Doc/)**
+
+---
+*Projet réalisé dans le cadre du BUT Informatique (SAE S3).*
